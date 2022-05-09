@@ -1,0 +1,22 @@
+body{
+    background-color: #FFF5EB;
+}
+hr{
+    background-color: #DEEDF0;
+    /* color: #DEEDF0; */
+    border-color: #DEEDF0;
+    width: 70%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+h3,h1{
+    color: #B2B8A3;
+    
+}
+h3:hover,h1:hover{
+    color: #a6dae4;
+    
+}
+img:hover{
+    background-color: pink;
+}
