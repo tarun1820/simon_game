@@ -1,22 +1,208 @@
 body{
     background-color: #FFF5EB;
+    margin: 0;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 0;
+    color: rgb(74, 77, 77);
+}
+.education{
+    
+    position: absolute;
+    top:10%;
+    left:18%;
 }
 hr{
     background-color: #DEEDF0;
     /* color: #DEEDF0; */
     border-color: #DEEDF0;
-    width: 70%;
-    margin-left: 0px;
-    margin-bottom: 20px;
+    width: 30%;
+    /* margin-left: 0px;
+    margin-bottom: 20px; */
+    margin: 0 auto 1.5% auto;
 }
-h3,h1{
-    color: #B2B8A3;
+a{
+    color: #f73737b5;
+    font-family: 'Oleo Script', cursive;
     
 }
+h1{
+    color: white;
+    font-family: 'Oleo Script', cursive;
+}
 h3:hover,h1:hover{
-    color: #a6dae4;
+    color: #52006A;
     
 }
 img:hover{
     background-color: pink;
+}
+.edu-img,.image1{
+    height: 100%;
+    width:  100%;
+}
+/* .home_body{
+    position: absolute;
+    top:850px;
+} */
+.bar{
+    background-color: burlywood;
+    width: 100%;
+    height: 8%;
+    /* position: absolute;
+    top:0; */
+}
+.about{
+    background-color: #f06e6e;
+    padding: 18% 0;
+    /* margin: 0 auto 0 auto ; */
+}
+/* .pofilepic{
+    width:20%;
+    height: 45%;
+    position: absolute;
+    top:35%;
+    left: 18%;
+} */
+.profile-pic{
+    padding-left: 15%;
+}
+
+.intro{
+    padding-top: 2.5%;
+}
+.eduinfo{
+    /* margin: 10% auto 0 auto; */
+    padding: 10% 10%;
+    margin-bottom: 15%;
+    height: 200px;
+}
+.ending{
+    padding-top: 2%;
+}
+.btn {
+    background: #d63791;
+    background-image: -webkit-linear-gradient(top, #d63791, #e89366);
+    background-image: -moz-linear-gradient(top, #d63791, #e89366);
+    background-image: -ms-linear-gradient(top, #d63791, #e89366);
+    background-image: -o-linear-gradient(top, #d63791, #e89366);
+    background-image: linear-gradient(to bottom, #d63791, #e89366);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 3px 3px 8px #8a5a8a;
+    -moz-box-shadow: 3px 3px 8px #8a5a8a;
+    box-shadow: 3px 3px 8px #8a5a8a;
+    font-family: Georgia;
+    color: #7de3de;
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+  
+  .btn:hover {
+    background: #e89366;
+    background-image: -webkit-linear-gradient(top, #e89366, #d63791);
+    background-image: -moz-linear-gradient(top, #e89366, #d63791);
+    background-image: -ms-linear-gradient(top, #e89366, #d63791);
+    background-image: -o-linear-gradient(top, #e89366, #d63791);
+    background-image: linear-gradient(to bottom, #e89366, #d63791);
+    text-decoration: none;
+  }
+
+  .bottom{
+      /* width:100%;
+      height: 40%; */
+      background-color: #f99a9a;
+      /* position: absolute; */
+     margin-top: 5%;
+     padding-top: 2.5%;
+     padding-bottom: 2.5%;
+    
+  }
+  .linked{
+      color:#f34444;
+    text-decoration: none;
+    /* position:absolute;
+    top:20%;
+    left: 45%; */
+    
+  }
+  .fb{
+    color:#f34444;
+    text-decoration: none;
+    /* position:absolute;
+    top:20%;
+    left:50%; */
+
+  }
+  .fb:hover{
+    color: #fabebe;
+  }
+
+  .linked:hover{
+      color: #fabebe;
+  }
+
+  .skilltab{
+      margin:0 auto;
+  }
+  .copy{
+      color: #DEEDF0;
+      margin-top: 1.0%;
+      /* position:absolute;
+      left: 35%;
+      top:65%; */
+    
+      
+  }
+
+  .My-contact{
+      padding: 0.2% 0;
+      margin-top: 0;
+     background-color: #78C4D4;
+  }
+i{
+    font-size: 50px;
+    /* padding: 5%; */
+}
+/* div{
+    display: inline-block;
+} */
+
+span{
+    margin: 0 5px;
+}
+
+.fa-whatsapp{
+    background-color: green;
+    color: white;
+    
+}
+/* i:hover{
+    max-width: 1300px;
+    color: #DEEDF0;
+} */
+.fa-linkedin{
+    color: darkblue;
+}
+.home-wap{
+    position:fixed;
+    padding-left: 42%;
+    padding-top: 10%;
+    margin: 0;
+}
+.whap{
+    /* border-radius: 50%;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle; */
+    padding: 30px;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    
+    background-color: #f34444;
 }
